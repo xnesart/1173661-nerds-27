@@ -194,28 +194,65 @@ list-style: none;
   position: relative;
   /* flex-direction: column; */
 }
+.nerds__results-block {
+  display: block;
+  margin-left: 200px;
+
+}
 .nerds__results-logo {
   display: flex;
-  position: absolute;
-  flex-direction: column;
-  align-self: flex-start;
+  justify-items: flex-end;
+  align-items: center;
+  /* position: absolute; */
   /* justify-content: flex-end; */
 }
 .nerds__results-text {
-  margin-top: 80px;
+  display: inline-block;
+  margin-top: 60px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
+
+}
+.nerds__results-list {
+  display: flex;
+  flex-direction: row;
+}
+.nerds__results-values {
+display: flex;
+/* flex-direction: row; */
+/* padding: 40px; */
+list-style: none;
+font-size: 45px;
+font-weight: bold;
+line-height: 18px;
+margin-top: 330px;
+justify-content: center;
+
 }
 .nerds__results-values1 {
-  display: flex;
-  flex-direction: column;
+  /* margin-top: 309px;
+  margin-left: -450px;
+  margin-right: 100px; */
 }
 .nerds__results-values2 {
-  display: flex;
-  flex-direction: column;
+  /* margin-top: 309px;
+  margin-left: -60px; */
 }
 .nerds__results-values3 {
-  display: flex;
-  flex-direction: column;
+  /* margin-top: 309px;
+  margin-left: -80px; */
+}
+.nerds__results-values1-text {
+font-weight: 400;
+font-size: 16px;
+
+}
+.nerds__results-values2-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.nerds__results-values3-text {
+  font-weight: 400;
+  font-size: 16px;
 }
