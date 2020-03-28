@@ -197,17 +197,13 @@ font-weight: 400;
 list-style: none;
 }
 .about__orders-first:before {
-  content: "  ";
-  display: block;
-  /* margin-bottom: 5px; */
+  content: " ";
+  display: inline-block;
   position: absolute;
-  top: 55%;
-  /* left: 10%; */
+  top: 45%;
   transform: translateY(-50%);
   height: 2px;
-  /* transform: translateX(55%); */
   width: 20px;
-  color: red;
   background-color: red;
 }
 .nerds-results {
