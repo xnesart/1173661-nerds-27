@@ -212,10 +212,13 @@ margin-left: 140px;
 font-size: 24px;
 font-weight: bold;
 text-align: left;
+margin-top: 30px;
+margin-bottom: 35px;
 }
 .products__text {
 font-size: 16px;
 font-weight: 400;
+margin-bottom: 35px;
 }
 .products__button1 {
 padding-top: 20px;
@@ -279,13 +282,23 @@ border-radius: 7px;
 .about-header {
 font-size: 45px;
 line-height: 45px;
+margin-bottom: 35px;
 }
 .about-text {
 font-size: 16px;
 font-weight: 400;
+margin-bottom: 50px;
+}
+.about-orders {
+  margin-bottom: 35px;
 }
 .about__orders-list {
 list-style: none;
+padding-bottom: 40px;
+
+}
+.about__orders-first {
+  margin-bottom: 40px;
 }
 .about__orders-first:before {
   content: " ";
