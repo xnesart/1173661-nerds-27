@@ -5,7 +5,7 @@ html {
 box-sizing: inherit;
 margin: 0;
 padding: 0;
-margin: 0 auto;
+/* margin: 0 auto; */
 }
 body {
   font-family: "Roboto", Arial, sans-serif;
@@ -214,30 +214,28 @@ font-size: 24px;
 font-weight: bold;
 text-align: left;
 margin-top: 30px;
-margin-bottom: 35px;
+margin-bottom: 25px;
+text-transform: uppercase;
 }
 .products__text {
 font-size: 16px;
 font-weight: 400;
-margin-bottom: 35px;
+margin-bottom: 25px;
 }
 .products__button1 {
-padding-top: 20px;
-padding-bottom: 20px;
-padding-right: 40px;
-padding-left: 40px;
+width: 160px;
+height: 50px;
 font-weight: 400;
 font-family: inherit;
 text-transform: uppercase;
 background-color: #fb565a;
 color: #fff;
 border-radius: 7px;
+height: 50px;
 }
 .products__button2 {
-padding-top: 20px;
-padding-bottom: 20px;
-padding-right: 40px;
-padding-left: 40px;
+width: 160px;
+height: 50px;
 font-weight: 400;
 font-family: inherit;
 text-transform: uppercase;
@@ -246,10 +244,12 @@ color: #fff;
 border-radius: 7px;
   }
 .products__button3 {
-padding-top: 20px;
+/* padding-top: 20px;
 padding-bottom: 20px;
 padding-right: 40px;
-padding-left: 40px;
+padding-left: 40px; */
+width: 160px;
+height: 50px;
 font-weight: 400;
 font-family: inherit;
 text-transform: uppercase;
@@ -258,14 +258,15 @@ color: #fff;
 border-radius: 7px;
 }
 .about-borderline {
-  display: flex;
-  flex-direction: row;
-  width: 800px;
-  background-image: url(../img/borderline.png);
-  margin-top: 80px;
-  margin-bottom: 60px;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* display: flex; */
+  /* position: absolute; */
+  /* flex-direction: row; */
+  /* width: 800px; */
+  /* background-image: url(../img/borderline.png); */
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
   /* width: 9px;
   height: 64px;
   background-position-x: 198px;
@@ -274,11 +275,13 @@ border-radius: 7px;
 .description {
   display: flex;
   flex-direction: row;
+  margin-top: 0px;
 }
 .about {
   display: flex;
   flex-direction: column;
   margin-left: 140px;
+  font-family: inherit;
 }
 .about-header {
 font-size: 45px;
@@ -288,20 +291,24 @@ margin-bottom: 35px;
 .about-text {
 font-size: 16px;
 font-weight: 400;
-margin-bottom: 50px;
+margin-bottom: 40px;
 }
 .about-orders {
-  margin-bottom: 35px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
 }
 .about__orders-list {
 list-style: none;
-padding-bottom: 40px;
+padding-bottom: 15px;
 
 }
 .about__orders-first {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
 }
-.about__orders-first:before {
+/* .about__orders-first:before {
   content: " ";
   display: inline-block;
   position: absolute;
@@ -310,7 +317,16 @@ padding-bottom: 40px;
   height: 2px;
   width: 20px;
   background-color: red;
+} */
+.about__orders-second {
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 20px;
 }
+.about__orders-third {
+  font-size: 16px;
+  line-height: 24px;
+  }
 .nerds-results {
   display: flex;
   position: relative;
@@ -394,7 +410,7 @@ font-size: 16px;
 }
 .border:first-of-type {
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 .border:nth-of-type(2) {
   margin-top: 80px;
