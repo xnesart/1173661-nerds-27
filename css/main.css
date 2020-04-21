@@ -334,8 +334,7 @@ margin-bottom: 20px;
 }
 .nerds__results-block {
   display: block;
-  margin-top: -35px;
-  margin-left: 145px;
+  margin-left: 120px;
 
 }
 .nerds__results-logo {
@@ -349,7 +348,7 @@ margin-bottom: 20px;
 }
 .nerds__results-text {
   display: inline-block;
-  margin-top: 250px;
+  margin-top: 260px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
