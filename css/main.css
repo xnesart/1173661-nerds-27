@@ -342,13 +342,16 @@ margin-bottom: 20px;
   justify-items: flex-start;
   align-items: center;
   position: absolute;
+  margin-top: -35px;
+  margin-left: 30px;
   /* margin-right : 170px; */
   /* position: absolute; */
   /* justify-content: flex-end; */
 }
 .nerds__results-text {
   display: inline-block;
-  margin-top: 260px;
+  margin-top: 210px;
+  margin-left: 40px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
@@ -367,7 +370,8 @@ list-style: none;
 font-size: 45px;
 font-weight: bold;
 line-height: 18px;
-margin-top: 330px;
+margin-top: 290px;
+margin-left: 55px;
 justify-content: center;
 }
 
@@ -375,7 +379,7 @@ justify-content: center;
   /* margin-top: 309px;
   margin-left: -450px;
   margin-right: 100px; */
-  margin-right: 25px;
+  margin-right: 15px;
 }
 .nerds__results-values2 {
   /* margin-top: 309px;
@@ -384,18 +388,21 @@ justify-content: center;
 .nerds__results-values3 {
   /* margin-top: 309px;
   margin-left: -80px; */
-  margin-left: 25px;
+  margin-left: 10px;
 }
 .nerds__results-values1-text {
+margin-top: 35px;
 font-weight: 400;
 font-size: 16px;
 
 }
 .nerds__results-values2-text {
+  margin-top: 35px;
   font-weight: 400;
   font-size: 16px;
 }
 .nerds__results-values3-text {
+  margin-top: 35px;
   font-weight: 400;
   font-size: 16px;
   /* margin-left: 25px; */
@@ -413,8 +420,8 @@ font-size: 16px;
   margin-bottom: 65px;
 }
 .border:nth-of-type(2) {
-  margin-top: 80px;
-  margin-bottom: 50px;
+  margin-top: 65px;
+  margin-bottom: 35px;
 }
 .firm-row {
   display: flex;
@@ -428,6 +435,7 @@ background-image: url(/img/div.png);
 .firm:first-of-type {
   background-image: url(/img/logo-1.png);
   background-repeat: no-repeat;
+  margin-top: 15px;
   width: 199px;
   height: 68px;
   margin-left: 170px;
@@ -440,6 +448,8 @@ background-image: url(/img/div.png);
   height: 87px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 80px;
 }
 .firm:nth-of-type(5) {
   background-image: url(/img/logo-3.png);
@@ -456,10 +466,6 @@ background-image: url(/img/div.png);
   height: 84px;
   margin-left: 60px;
   margin-right: 60px;
-}
-.border:nth-of-type(3) {
-  margin-top: 50px;
-  margin-bottom: 80px;
 }
 .map {
   background-image: url(/img/map.png);
