@@ -24,33 +24,35 @@
         </nav>
       </header>
       <section class="nav__slides">
-      <div class="wrapper">
-        <input type="radio" name="slides" id="point1" checked>
-        <input type="radio" name="slides" id="point2">
-        <input type="radio" name="slides" id="point3">
-        <div class="slider-container">
-        <div class="slider__slide-1">
+      <div class="wrapper-content">
+        <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+				<input class="visually-hidden" type="radio" id="product-2" name="toggle">
+				<input class="visually-hidden" type="radio" id="product-3" name="toggle">
+        <div class="slider-controls">
+					<label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+					<label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+					<label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+				</div>
+        <ul class="slider-list">
+        <li class="slider__slide-1">
           <div class="slider__slide-1-image"></div>
           <h2 class="slider__slide-1-header">Долго, дорого,<br> скрупулезно.</h2>
           <p class="slider__slide-1-desc">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
           <button class="slider__slide-button">УЗНАТЬ БОЛЬШЕ</button>
-        </div>
-        <div class="slider__slide-2">
+        </li>
+        <li class="slider__slide-2">
+          <div class="slider__slide-2-image"></div>
         <h2 class="slider__slide-2-header">Любим математику<br> как никто другой</h2>
           <p class="slider__slide-2-desc">Никакого креатива, только математические формулы<br> для расчета идеальных пропорций.</p>
           <button class="slider__slide-button">УЗНАТЬ БОЛЬШЕ</button>
-        </div>
-        <div class="slider__slide-3">
+        </li>
+        <li class="slider__slide-3">
+          <div class="slider__slide-3-image"></div>
           <h2 class="slider__slide-3-header">Только ночь,<br> только хардкор</h2>
           <p class="slider__slide-3-desc">Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
           <button class="slider__slide-button">УЗНАТЬ БОЛЬШЕ</button>
-        </div>
-      </div>
-      <div class="control">
-      <label for="point1"></label>
-      <label for="point2"></label>
-      <label for="point3"></label>
-      </div>
+        </li>
+      </ul>
       </div>
     </section>
       <main>
@@ -81,9 +83,9 @@
           <p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br> превыше креатива. Работаем не покладая рук, как роботы.</p>
           <h2 class="about-orders">Выполняем заказы на разработку:</h2>
           <ul class="about__orders-list">
-            <li class="about__orders-first">Веб-сайтов любой сложности</li>
-            <li class="about__orders-second">Мобильных приложений для iOS и Android</li>
-            <li class="about__orders-third">Слайдшоу и видео для корпоративных презентаций</li>
+            <li class="about__orders-item">Веб-сайтов любой сложности</li>
+            <li class="about__orders-item">Мобильных приложений для iOS и Android</li>
+            <li class="about__orders-item">Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
         </div>
           <div class="nerds-results">
