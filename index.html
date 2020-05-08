@@ -17,8 +17,10 @@
               <li><div class="main__nav-item"><a class="menu__nav-link link" href="Catalog.html">Магазин</a></div></li>
               <li><div class="main__nav-item"><a class="menu__nav-link link" href="contacts.html">Контакты</a></div></li>
             </ul>
-            <img src="/img/cart-icon.png" class="cart-image">
-            <div class="cart"><a href="#" class="menu__cart-link link">Корзина</a></div>
+            <ul class="cart">
+            <li><img src="/img/cart-icon.png" class="cart-image"></li>
+            <li><a href="#" class="menu__cart-link link">Корзина</a></li>
+            </ul>
           </img>
         </nav>
       </div>
@@ -55,6 +57,7 @@
     </section>
       <main>
         <section class="products">
+          <div class="products wrapper-content">
           <div class="products__block1">
             <div class="products__block1-picture"></div>
             <h2 class="products__header">Веб-сайты</h2>
@@ -73,9 +76,11 @@
           <p class="products__text">Вы даже не подозреваете,<br> насколько вы изумительны!</p>
           <button class="products__button3">Заказать</button>
         </div>
+      </div>
         </section>
         <div class="border"></div>
         <section class="description">
+          <div class="about wrapper-content">
           <div class="about">
           <h2 class="about-header">Мы — маленькая, но гордая<br> дизайн-студия из Краснодара. </h2>
           <p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br> превыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -86,29 +91,37 @@
             <li class="about__orders-item">Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
         </div>
+          </div>
+          <div class="nerds-results wrapper-content">
           <div class="nerds-results">
             <div class="nerds__results-block">
-            <img class="nerds__results-logo" src="/img/nerds-illustration.png"></img>
+            <img class="nerds__results-logo" src="/img/nerds-illustration.png" alt="Логотип Nerds"></img>
             <p class="nerds__results-text">с 2004 года Любим точность во всем:</p>
           </div>
+
           <div class="nerds__results-list">
             <ul class="nerds__results-values">
-              <li class="nerds__results-values1">146%
+              <li class="nerds__results-values1">146<sup>%</sup>
                 <p class="nerds__results-values1-text">Уровень<br> самоотдачи</p>
               </li>
-              <li class="nerds__results-values2">100%
+              <li class="nerds__results-values2">100<sup>%</sup>
                 <p class="nerds__results-values2-text">Соблюдение<br> сроков</p>
               </li>
-              <li class="nerds__results-values3">50%
+              <li class="nerds__results-values3">50<sup>%</sup>
                 <p class="nerds__results-values3-text">Минимальная<br> предоплата</p>
               </li>
             </ul>
           </div>
         </div>
+      </div>
+      </div>
+    </div>
         </section>
+        <!-- <div class="border wrapper-content"> -->
         <div class="border"></div>
         <!-- Логотипы разных компаний -->
         <section class="firm-line">
+          <div class="wrapper-content">
           <ul class="firm-list">
             <li class="firm-item">
               <img src="img/logo-1.png" width="199" height="68" alt="Логотип HTML Academy">
@@ -123,7 +136,9 @@
               <img src="img/logo-4.png" width="173" height="84" alt="Логотип Mishka">
             </li>
           </ul>
+        </div>
         </section>
+      </div>
         <!-- <section class="firm-row">
           <div class="firm"></div>
           <div class="border-vertical"></div>
@@ -135,6 +150,7 @@
         </section> -->
         <div class="border"></div>
         <section class="map">
+          <div class="map-wrapper">
           <div class="map"></div>
           <div class="map-marker"></div>
           <div class="map__text-background">
@@ -146,6 +162,7 @@
         </div>
         <button class="map__button">Напишите нам</button>
       </div>
+    </div>
         </section>
       </main>
       <footer class="page-footer">
