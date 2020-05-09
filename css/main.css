@@ -669,21 +669,7 @@ margin-bottom: 70px;
 }
 
 /* ///////////////////////////MAP//////////////////// */
-.map-wrapper {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 416px;
-  /* width: 1440px; */
-  background-color: #b5b5b5;
 
-}
-.map-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-}
 .map {
 justify-content: center;
   background-image: url(/img/map.png);
