@@ -16,7 +16,7 @@ body {
 }
 .wrapper-content{
   max-width: 1440px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 20px;
 }
 .visually-hidden{
@@ -30,7 +30,8 @@ body {
 /* /////////////////////////HEADER//////////////////// */
 .header-wrapper {
   display: flex;
-  margin-left: 35px;
+  padding-left: 100px;
+  /* margin-left: 35px; */
   /* border: 2px solid red; */
 }
 .header {
@@ -287,7 +288,7 @@ margin-left: 35px;
 
 }
 .products__block1 {
-margin-left: 170px;
+/* margin-left: 10px; */
 }
 .products__block2 {
   /* position: absolute; */
@@ -669,14 +670,20 @@ margin-bottom: 70px;
 }
 
 /* ///////////////////////////MAP//////////////////// */
+.map-wrapper {
 
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  /* text-align: center; */
+}
 .map {
-justify-content: center;
   background-image: url(/img/map.png);
   width: 1440px;
   height: 416px;
   width: 100%;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .map-marker {
   background-image: url(/img/map-marker.png);
