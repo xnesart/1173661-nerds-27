@@ -620,6 +620,26 @@ background-image: url(/img/div.png);
 margin-top: 20px;
 margin-bottom: 70px;
 }
+.firm-line::before {
+  display: flex;
+  content: '';
+  background-color: #eee;
+  width: 1160px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 60px;
+}
+.firm-line::after {
+  display: flex;
+  content: '';
+  background-color: #eee;
+  width: 1160px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
 .firm {
   margin-bottom: 78px;
   padding-top: 60px;
@@ -671,13 +691,18 @@ margin-bottom: 70px;
 
 /* ///////////////////////////MAP//////////////////// */
 .map-wrapper {
-
   display: flex;
-  /* width: 100%; */
   justify-content: center;
-  /* text-align: center; */
+  margin: 0 auto;
+}
+.section-map {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 .map {
+  display: flex;
+  justify-content: center;
   background-image: url(/img/map.png);
   width: 1440px;
   height: 416px;
@@ -687,7 +712,7 @@ margin-bottom: 70px;
 }
 .map-marker {
   background-image: url(/img/map-marker.png);
-  /* display: flex; */
+  /* display: flex; */'
   position: absolute;
   width: 231px;
   height: 190px;
